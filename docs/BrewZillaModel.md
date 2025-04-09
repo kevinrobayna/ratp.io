@@ -1,4 +1,4 @@
-# OpenapiClient::BrewZillaModel
+# RaptApiClient::BrewZillaModel
 
 ## Properties
 
@@ -77,9 +77,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::BrewZillaModel.new(
+instance = RaptApiClient::BrewZillaModel.new(
   id: null,
   deleted: null,
   created_on: null,

@@ -1,4 +1,4 @@
-# OpenapiClient::ToggleStates
+# RaptApiClient::ToggleStates
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ToggleStates.new()
+instance = RaptApiClient::ToggleStates.new()
 ```
 

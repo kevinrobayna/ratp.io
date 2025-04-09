@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileStepAlertModel
+# RaptApiClient::ProfileStepAlertModel
 
 ## Properties
 
@@ -21,9 +21,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileStepAlertModel.new(
+instance = RaptApiClient::ProfileStepAlertModel.new(
   id: null,
   deleted: null,
   created_on: null,

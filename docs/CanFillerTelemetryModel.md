@@ -1,4 +1,4 @@
-# OpenapiClient::CanFillerTelemetryModel
+# RaptApiClient::CanFillerTelemetryModel
 
 ## Properties
 
@@ -17,9 +17,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::CanFillerTelemetryModel.new(
+instance = RaptApiClient::CanFillerTelemetryModel.new(
   row_key: null,
   created_on: null,
   mac_address: null,

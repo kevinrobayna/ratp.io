@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileAlertTriggers
+# RaptApiClient::ProfileAlertTriggers
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileAlertTriggers.new()
+instance = RaptApiClient::ProfileAlertTriggers.new()
 ```
 

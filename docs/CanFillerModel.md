@@ -1,4 +1,4 @@
-# OpenapiClient::CanFillerModel
+# RaptApiClient::CanFillerModel
 
 ## Properties
 
@@ -41,9 +41,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::CanFillerModel.new(
+instance = RaptApiClient::CanFillerModel.new(
   id: null,
   deleted: null,
   created_on: null,

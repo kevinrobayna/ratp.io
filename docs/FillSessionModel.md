@@ -1,4 +1,4 @@
-# OpenapiClient::FillSessionModel
+# RaptApiClient::FillSessionModel
 
 ## Properties
 
@@ -16,9 +16,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::FillSessionModel.new(
+instance = RaptApiClient::FillSessionModel.new(
   start_date: null,
   end_date: null,
   fill_count: null,

@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileModel
+# RaptApiClient::ProfileModel
 
 ## Properties
 
@@ -26,9 +26,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileModel.new(
+instance = RaptApiClient::ProfileModel.new(
   id: null,
   deleted: null,
   created_on: null,

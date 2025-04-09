@@ -1,4 +1,4 @@
-# OpenapiClient::ExternalDeviceTelemetryModel
+# RaptApiClient::ExternalDeviceTelemetryModel
 
 ## Properties
 
@@ -16,9 +16,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ExternalDeviceTelemetryModel.new(
+instance = RaptApiClient::ExternalDeviceTelemetryModel.new(
   row_key: null,
   created_on: null,
   mac_address: null,

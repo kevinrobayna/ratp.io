@@ -1,4 +1,4 @@
-# OpenapiClient::FermentationChamberTelemetryModel
+# RaptApiClient::FermentationChamberTelemetryModel
 
 ## Properties
 
@@ -31,9 +31,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::FermentationChamberTelemetryModel.new(
+instance = RaptApiClient::FermentationChamberTelemetryModel.new(
   row_key: null,
   created_on: null,
   mac_address: null,

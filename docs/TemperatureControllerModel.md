@@ -1,4 +1,4 @@
-# OpenapiClient::TemperatureControllerModel
+# RaptApiClient::TemperatureControllerModel
 
 ## Properties
 
@@ -73,9 +73,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::TemperatureControllerModel.new(
+instance = RaptApiClient::TemperatureControllerModel.new(
   id: null,
   deleted: null,
   created_on: null,

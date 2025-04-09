@@ -1,4 +1,4 @@
-# OpenapiClient::BrewZillaTelemetryModel
+# RaptApiClient::BrewZillaTelemetryModel
 
 ## Properties
 
@@ -29,9 +29,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::BrewZillaTelemetryModel.new(
+instance = RaptApiClient::BrewZillaTelemetryModel.new(
   row_key: null,
   created_on: null,
   mac_address: null,

@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileStepControlTypes
+# RaptApiClient::ProfileStepControlTypes
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileStepControlTypes.new()
+instance = RaptApiClient::ProfileStepControlTypes.new()
 ```
 

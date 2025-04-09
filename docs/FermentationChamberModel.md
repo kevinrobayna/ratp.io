@@ -1,4 +1,4 @@
-# OpenapiClient::FermentationChamberModel
+# RaptApiClient::FermentationChamberModel
 
 ## Properties
 
@@ -79,9 +79,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::FermentationChamberModel.new(
+instance = RaptApiClient::FermentationChamberModel.new(
   id: null,
   deleted: null,
   created_on: null,

@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileStepEndTypes
+# RaptApiClient::ProfileStepEndTypes
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileStepEndTypes.new()
+instance = RaptApiClient::ProfileStepEndTypes.new()
 ```
 

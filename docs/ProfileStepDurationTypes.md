@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileStepDurationTypes
+# RaptApiClient::ProfileStepDurationTypes
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileStepDurationTypes.new()
+instance = RaptApiClient::ProfileStepDurationTypes.new()
 ```
 

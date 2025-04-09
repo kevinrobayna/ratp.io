@@ -1,4 +1,4 @@
-# OpenapiClient::BondedDeviceModel
+# RaptApiClient::BondedDeviceModel
 
 ## Properties
 
@@ -34,9 +34,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::BondedDeviceModel.new(
+instance = RaptApiClient::BondedDeviceModel.new(
   id: null,
   deleted: null,
   created_on: null,

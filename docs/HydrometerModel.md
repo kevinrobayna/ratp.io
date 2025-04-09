@@ -1,4 +1,4 @@
-# OpenapiClient::HydrometerModel
+# RaptApiClient::HydrometerModel
 
 ## Properties
 
@@ -37,9 +37,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::HydrometerModel.new(
+instance = RaptApiClient::HydrometerModel.new(
   id: null,
   deleted: null,
   created_on: null,

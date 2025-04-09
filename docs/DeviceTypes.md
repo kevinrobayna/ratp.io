@@ -1,4 +1,4 @@
-# OpenapiClient::DeviceTypes
+# RaptApiClient::DeviceTypes
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::DeviceTypes.new()
+instance = RaptApiClient::DeviceTypes.new()
 ```
 

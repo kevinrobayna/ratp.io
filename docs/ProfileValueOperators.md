@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileValueOperators
+# RaptApiClient::ProfileValueOperators
 
 ## Properties
 
@@ -8,8 +8,8 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::ProfileValueOperators.new()
+instance = RaptApiClient::ProfileValueOperators.new()
 ```
 

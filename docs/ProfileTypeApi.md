@@ -1,4 +1,4 @@
-# OpenapiClient::ProfileTypeApi
+# RaptApiClient::ProfileTypeApi
 
 All URIs are relative to *http://localhost*
 
@@ -18,20 +18,20 @@ All URIs are relative to *http://localhost*
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::ProfileTypeApi.new
+api_instance = RaptApiClient::ProfileTypeApi.new
 
 begin
   
   result = api_instance.api_profile_types_get_all_get
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling ProfileTypeApi->api_profile_types_get_all_get: #{e}"
 end
 ```
@@ -49,7 +49,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <Array<ProfileModel>>
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling ProfileTypeApi->api_profile_types_get_all_get_with_http_info: #{e}"
 end
 ```
@@ -82,14 +82,14 @@ This endpoint does not need any parameter.
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::ProfileTypeApi.new
+api_instance = RaptApiClient::ProfileTypeApi.new
 opts = {
   id: '38400000-8cf0-11bd-b23e-10b96e4ef00d' # String | 
 }
@@ -98,7 +98,7 @@ begin
   
   result = api_instance.api_profile_types_get_get(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling ProfileTypeApi->api_profile_types_get_get: #{e}"
 end
 ```
@@ -116,7 +116,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <ProfileTypeModel>
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling ProfileTypeApi->api_profile_types_get_get_with_http_info: #{e}"
 end
 ```

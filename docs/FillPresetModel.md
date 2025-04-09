@@ -1,4 +1,4 @@
-# OpenapiClient::FillPresetModel
+# RaptApiClient::FillPresetModel
 
 ## Properties
 
@@ -12,9 +12,9 @@
 ## Example
 
 ```ruby
-require 'openapi_client'
+require 'rapt_api_client'
 
-instance = OpenapiClient::FillPresetModel.new(
+instance = RaptApiClient::FillPresetModel.new(
   name: null,
   purge_time: null,
   wait_time: null,

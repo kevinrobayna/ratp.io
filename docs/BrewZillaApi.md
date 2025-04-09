@@ -1,4 +1,4 @@
-# OpenapiClient::BrewZillaApi
+# RaptApiClient::BrewZillaApi
 
 All URIs are relative to *http://localhost*
 
@@ -26,14 +26,14 @@ All URIs are relative to *http://localhost*
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d' # String | 
 }
@@ -42,7 +42,7 @@ begin
   
   result = api_instance.api_brew_zillas_get_brew_zilla_get(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_get_brew_zilla_get: #{e}"
 end
 ```
@@ -60,7 +60,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <BrewZillaModel>
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_get_brew_zilla_get_with_http_info: #{e}"
 end
 ```
@@ -95,20 +95,20 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 
 begin
   
   result = api_instance.api_brew_zillas_get_brew_zillas_get
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_get_brew_zillas_get: #{e}"
 end
 ```
@@ -126,7 +126,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <Array<BrewZillaModel>>
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_get_brew_zillas_get_with_http_info: #{e}"
 end
 ```
@@ -159,14 +159,14 @@ This endpoint does not need any parameter.
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   start_date: Time.parse('2013-10-20T19:20:30+01:00'), # Time | 
@@ -177,7 +177,7 @@ begin
   
   result = api_instance.api_brew_zillas_get_telemetry_get(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_get_telemetry_get: #{e}"
 end
 ```
@@ -195,7 +195,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <Array<BrewZillaTelemetryModel>>
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_get_telemetry_get_with_http_info: #{e}"
 end
 ```
@@ -232,14 +232,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   state: true # Boolean | 
@@ -249,7 +249,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_heating_enabled_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_heating_enabled_post: #{e}"
 end
 ```
@@ -267,7 +267,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_heating_enabled_post_with_http_info: #{e}"
 end
 ```
@@ -303,14 +303,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   utilisation: 1.2 # Float | 
@@ -320,7 +320,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_heating_utilisation_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_heating_utilisation_post: #{e}"
 end
 ```
@@ -338,7 +338,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_heating_utilisation_post_with_http_info: #{e}"
 end
 ```
@@ -374,14 +374,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   state: true # Boolean | 
@@ -391,7 +391,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_pid_enabled_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pid_enabled_post: #{e}"
 end
 ```
@@ -409,7 +409,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pid_enabled_post_with_http_info: #{e}"
 end
 ```
@@ -445,14 +445,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   p: 1.2, # Float | 
@@ -464,7 +464,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_pid_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pid_post: #{e}"
 end
 ```
@@ -482,7 +482,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pid_post_with_http_info: #{e}"
 end
 ```
@@ -520,14 +520,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   state: true # Boolean | 
@@ -537,7 +537,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_pump_enabled_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pump_enabled_post: #{e}"
 end
 ```
@@ -555,7 +555,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pump_enabled_post_with_http_info: #{e}"
 end
 ```
@@ -591,14 +591,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   utilisation: 1.2 # Float | 
@@ -608,7 +608,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_pump_utilisation_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pump_utilisation_post: #{e}"
 end
 ```
@@ -626,7 +626,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_pump_utilisation_post_with_http_info: #{e}"
 end
 ```
@@ -662,14 +662,14 @@ end
 
 ```ruby
 require 'time'
-require 'openapi_client'
+require 'rapt_api_client'
 # setup authorization
-OpenapiClient.configure do |config|
+RaptApiClient.configure do |config|
   # Configure Bearer authorization (JWT): Bearer
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = OpenapiClient::BrewZillaApi.new
+api_instance = RaptApiClient::BrewZillaApi.new
 opts = {
   brew_zilla_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   target: 1.2 # Float | 
@@ -679,7 +679,7 @@ begin
   
   result = api_instance.api_brew_zillas_set_target_temperature_post(opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_target_temperature_post: #{e}"
 end
 ```
@@ -697,7 +697,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => Boolean
-rescue OpenapiClient::ApiError => e
+rescue RaptApiClient::ApiError => e
   puts "Error when calling BrewZillaApi->api_brew_zillas_set_target_temperature_post_with_http_info: #{e}"
 end
 ```

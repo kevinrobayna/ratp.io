@@ -5,3 +5,6 @@
 .github
 .openapi-generator-ignore
 .gitignore
+.gitlab-ci.yml
+.travis.yml
+git_push.sh

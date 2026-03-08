@@ -14,8 +14,8 @@
 | **order** | **Integer** |  | [optional] |
 | **control_type** | [**ProfileStepControlTypes**](ProfileStepControlTypes.md) |  | [optional] |
 | **end_type** | [**ProfileStepEndTypes**](ProfileStepEndTypes.md) |  | [optional] |
-| **duration_type** | [**ProfileStepDurationTypes**](ProfileStepDurationTypes.md) |  | [optional] |
-| **operator** | [**ProfileValueOperators**](ProfileValueOperators.md) |  | [optional] |
+| **duration_type** | [**ProfileStepDurationTypesNullable**](ProfileStepDurationTypesNullable.md) |  | [optional] |
+| **operator** | [**ProfileValueOperatorsNullable**](ProfileValueOperatorsNullable.md) |  | [optional] |
 | **length** | **Integer** |  | [optional] |
 | **temperature** | **Float** |  | [optional] |
 | **min_temperature** | **Float** |  | [optional] |

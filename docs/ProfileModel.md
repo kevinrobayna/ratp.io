@@ -16,6 +16,7 @@
 | **profile_name** | **String** |  | [optional] |
 | **rating** | **Float** |  | [optional] |
 | **rating_count** | **Integer** |  | [optional] |
+| **rating_score** | **Float** |  | [optional] |
 | **copy_count** | **Float** |  | [optional] |
 | **view_count** | **Float** |  | [optional] |
 | **profile_type_id** | **String** |  | [optional] |
@@ -41,6 +42,7 @@ instance = RaptApiClient::ProfileModel.new(
   profile_name: null,
   rating: null,
   rating_count: null,
+  rating_score: null,
   copy_count: null,
   view_count: null,
   profile_type_id: null,

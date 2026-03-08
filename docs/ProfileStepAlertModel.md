@@ -12,7 +12,7 @@
 | **modified_by** | **String** |  | [optional] |
 | **alert_text** | **String** |  | [optional] |
 | **trigger** | [**ProfileAlertTriggers**](ProfileAlertTriggers.md) |  | [optional] |
-| **operator** | [**ProfileValueOperators**](ProfileValueOperators.md) |  | [optional] |
+| **operator** | [**ProfileValueOperatorsNullable**](ProfileValueOperatorsNullable.md) |  | [optional] |
 | **temperature** | **Float** |  | [optional] |
 | **gravity** | **Float** |  | [optional] |
 | **length** | **Integer** |  | [optional] |

@@ -28,10 +28,11 @@
 | **active_profile_step_id** | **String** |  | [optional] |
 | **active_profile_session** | [**ProfileSessionStatusModel**](ProfileSessionStatusModel.md) |  | [optional] |
 | **telemetry** | [**Array&lt;HydrometerTelemetryModel&gt;**](HydrometerTelemetryModel.md) |  | [optional] |
-| **paired_device_type** | [**DeviceTypes**](DeviceTypes.md) |  | [optional] |
+| **paired_device_type** | [**DeviceTypesNullable**](DeviceTypesNullable.md) |  | [optional] |
 | **paired_device_id** | **String** |  | [optional] |
 | **temperature** | **Float** |  | [optional] |
 | **gravity** | **Float** |  | [optional] |
+| **gravity_velocity** | **Float** |  | [optional] |
 | **battery** | **Float** |  | [optional] |
 
 ## Example
@@ -68,6 +69,7 @@ instance = RaptApiClient::HydrometerModel.new(
   paired_device_id: null,
   temperature: null,
   gravity: null,
+  gravity_velocity: null,
   battery: null
 )
 ```

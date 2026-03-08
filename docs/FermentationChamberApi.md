@@ -166,7 +166,8 @@ api_instance = RaptApiClient::FermentationChamberApi.new
 opts = {
   fermentation_chamber_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d', # String | 
   start_date: Time.parse('2013-10-20T19:20:30+01:00'), # Time | 
-  end_date: Time.parse('2013-10-20T19:20:30+01:00') # Time | 
+  end_date: Time.parse('2013-10-20T19:20:30+01:00'), # Time | 
+  profile_session_id: '38400000-8cf0-11bd-b23e-10b96e4ef00d' # String | 
 }
 
 begin
@@ -203,6 +204,7 @@ end
 | **fermentation_chamber_id** | **String** |  | [optional] |
 | **start_date** | **Time** |  | [optional] |
 | **end_date** | **Time** |  | [optional] |
+| **profile_session_id** | **String** |  | [optional] |
 
 ### Return type
 

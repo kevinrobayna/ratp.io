@@ -47,6 +47,7 @@
 | **heating_enabled** | **Boolean** |  | [optional] |
 | **heating_run_time** | **Float** |  | [optional] |
 | **heating_starts** | **Float** |  | [optional] |
+| **heating_utilisation** | **Float** |  | [optional] |
 | **high_temp_alarm** | **Float** |  | [optional] |
 | **low_temp_alarm** | **Float** |  | [optional] |
 | **ntc_beta** | **Float** |  | [optional] |
@@ -70,9 +71,9 @@
 | **telemetry** | [**Array&lt;BrewZillaTelemetryModel&gt;**](BrewZillaTelemetryModel.md) |  | [optional] |
 | **auxillary_run_time** | **Float** |  | [optional] |
 | **auxillary_starts** | **Float** |  | [optional] |
-| **heating_utilisation** | **Float** |  | [optional] |
 | **pump_enabled** | **Boolean** |  | [optional] |
 | **pump_utilisation** | **Float** |  | [optional] |
+| **distillation_mode** | **Boolean** |  | [optional] |
 
 ## Example
 
@@ -123,6 +124,7 @@ instance = RaptApiClient::BrewZillaModel.new(
   heating_enabled: null,
   heating_run_time: null,
   heating_starts: null,
+  heating_utilisation: null,
   high_temp_alarm: null,
   low_temp_alarm: null,
   ntc_beta: null,
@@ -146,9 +148,9 @@ instance = RaptApiClient::BrewZillaModel.new(
   telemetry: null,
   auxillary_run_time: null,
   auxillary_starts: null,
-  heating_utilisation: null,
   pump_enabled: null,
-  pump_utilisation: null
+  pump_utilisation: null,
+  distillation_mode: null
 )
 ```
 

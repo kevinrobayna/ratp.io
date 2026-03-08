@@ -4,6 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
+| **id** | **String** |  | [optional] |
 | **row_key** | **String** |  | [optional] |
 | **created_on** | **Time** |  | [optional] |
 | **mac_address** | **String** |  | [optional] |
@@ -19,6 +20,7 @@
 require 'rapt_api_client'
 
 instance = RaptApiClient::ExternalDeviceTelemetryModel.new(
+  id: null,
   row_key: null,
   created_on: null,
   mac_address: null,

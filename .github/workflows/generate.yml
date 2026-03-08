@@ -1,0 +1,29 @@
+name: Generate API Client
+on:
+  schedule:
+    - cron: 0 12 1 * * # Runs at 12:00 UTC on the 1st day of every month
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 4.0
+      - name: Install OpenAPI Generator
+        run: gem install openapi-generator
+      - name: Generate API Client
+        run: |
+          openapi-generator generate -i https://api.rapt.io/swagger/v1/swagger.json -g ruby -o . --additional-properties=gemName=rapt_api_client,moduleName=RaptApiClient --ignore-file-override=.openapi-generator-ignore
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Generate API Client"
+          git push origin main
